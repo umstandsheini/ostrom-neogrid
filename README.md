@@ -48,3 +48,7 @@ bevor es gespeichert wird. Lehnt Ostrom den Login später ab, fragt Home Assista
   ausführen und den Ausgangszustand wiederherstellen.
 
 Eigene Auswertungen (`neogrid_*.csv`, `analysis/`) gehören nicht ins Repository (siehe `.gitignore`).
+
+## Lizenz
+
+[MIT](LICENSE). Der Haftungsausschluss gilt zusätzlich zum Hinweis oben.
