@@ -1,0 +1,8 @@
+# personal data and local tooling - never commit
+neogrid_history.csv
+neogrid_sessions.csv
+analysis/
+.claude/
+__pycache__/
+*.pyc
+.env
