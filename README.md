@@ -4,8 +4,17 @@ Inoffizielle Home-Assistant-Integration für Ostrom (NeoGrid-Gutschriften, Fahrz
 Sie nutzt die **private API der Ostrom-App** (aus der Android-App 6.4.0 per Analyse des JS-Bundles abgeleitet),
 nicht die offizielle Entwickler-API, weil diese keine Steuerfunktionen hat.
 
-> **Hinweis:** Nicht von Ostrom unterstützt oder geprüft. Die private API kann sich jederzeit ändern oder wegfallen.
-> Ob die Nutzungsbedingungen das erlauben, ist nicht geprüft. Nutzung auf eigene Verantwortung, nur mit dem eigenen Konto.
+> ## ⚠️ Nutzung auf EIGENE Verantwortung
+>
+> - **Inoffiziell:** Das Projekt ist nicht von Ostrom, Home Assistant oder einem anderen Hersteller unterstützt, geprüft oder freigegeben.
+> - **Private API:** Es nutzt die nicht dokumentierte API der Ostrom-App. Sie kann sich jederzeit ändern oder wegfallen. Ob die
+>   Nutzungsbedingungen von Ostrom das erlauben, ist **nicht geprüft**. Ein Konto kann im schlimmsten Fall eingeschränkt oder gesperrt werden.
+> - **Schaltet echte Geräte:** Die Integration startet und stoppt Ladevorgänge, ändert Ladeziele, schaltet NeoGrid und stellt die Heizung.
+>   Fehler, Verzögerungen oder Fehlbedienung können zu leeren Akkus, nicht geladenen Fahrzeugen, falscher Raumtemperatur, entgangenen
+>   Gutschriften oder Mehrkosten führen.
+> - **Zugangsdaten:** E-Mail und Passwort des Ostrom-Kontos liegen im Konfigurationseintrag deines Home Assistant.
+> - **Keine Gewähr:** Es gibt keine Garantie und keine Haftung. Benutze die Integration nur mit **deinem eigenen** Konto und
+>   prüfe zuerst jede Schreibfunktion an einem Gerät, bei dem ein Fehler nichts ausmacht (zum Beispiel ein nicht angestecktes Fahrzeug).
 
 ## Funktionen
 
