@@ -27,7 +27,8 @@ Nicht möglich: der in der App angelegte Override (*Jetzt laden*), der Pfad antw
 3. Einstellungen → Geräte & Dienste → Integration hinzufügen → **Ostrom NeoGrid**, E-Mail und Passwort des Ostrom-Kontos eingeben.
 
 Das Passwort wird wie bei anderen Cloud-Integrationen im Konfigurationseintrag von Home Assistant gespeichert.
-Lehnt Ostrom den Login später ab, fragt Home Assistant nach dem neuen Passwort.
+Das Passwort änderst du unter Einstellungen → Geräte & Dienste → Ostrom NeoGrid → ⋮ → **Neu konfigurieren**; es wird geprüft,
+bevor es gespeichert wird. Lehnt Ostrom den Login später ab, fragt Home Assistant selbst nach dem neuen Passwort.
 
 ## Entwicklung
 

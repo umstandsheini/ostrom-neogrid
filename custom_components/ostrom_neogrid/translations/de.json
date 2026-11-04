@@ -14,6 +14,13 @@
         "data": {
           "password": "Passwort"
         }
+      },
+      "reconfigure": {
+        "title": "Ostrom: Passwort ändern",
+        "description": "Neues Passwort für {email} eingeben. Es wird geprüft, bevor es gespeichert wird.",
+        "data": {
+          "password": "Passwort"
+        }
       }
     },
     "error": {
@@ -22,7 +29,8 @@
     },
     "abort": {
       "already_configured": "Dieses Konto ist bereits eingerichtet",
-      "reauth_successful": "Passwort aktualisiert"
+      "reauth_successful": "Passwort aktualisiert",
+      "reconfigure_successful": "Passwort aktualisiert"
     }
   }
 }
